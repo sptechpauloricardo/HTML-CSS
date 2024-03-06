@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Estilização com CSS Interno</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        .div-a {
+            background-color: #ffcc99;
+            width: 500px;
+            height: 500px;
+            margin: 50px auto;
+            position: relative;
+        }
+
+        .div-b {
+            background-color: #99ff99;
+            width: 50%;
+            height: 50%;
+            position: absolute;
+            top: 25%;
+            left: 25%;
+            padding: 20px;
+        }
+
+        .div-d {
+            background-color: #add8e6;
+            width: 50%;
+            height: 50vh;
+            margin: 50px auto;
+        }
+
+        .div-e {
+            background-color: #ff6666;
+            width: 75vw;
+            height: 50%;
+            margin: auto;
+            padding: 20px;
+        }
+
+        p {
+            color: white;
+            background-color: #ff3333;
+            font-size: 20px;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+            padding: 10px;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Div A -->
+    <div class="div-a">
+
+        <!-- Div B -->
+        <div class="div-b">
+
+            <!-- Parágrafo dentro da Div B -->
+            <p>
+                Este é um parágrafo dentro da Div B
+            </p>
+
+        </div>
+
+    </div>
+
+    <!-- Div D -->
+    <div class="div-d">
+
+        <!-- Div E -->
+        <div class="div-e">
+
+        </div>
+
+    </div>
+
+</body>
+</html>
